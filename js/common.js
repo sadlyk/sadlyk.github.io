@@ -30,6 +30,7 @@ $(function() {
             loop:true
         }
     }
-})
-
+	})
+	$('.header').parallax({imageSrc: 'img/header-bg.png'});
+	$('.about-shoes').parallax({imageSrc: 'img/second-bg.jpg'});
 });
