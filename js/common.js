@@ -10,7 +10,7 @@ $(function() {
     responsive:{
         320:{
             items:1,
-            nav:false
+            nav:true
         },
         480:{
             items:2,
