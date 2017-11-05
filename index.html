@@ -25,7 +25,7 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="#8C775C">
 
 	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #8C775C; }</style>
-
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
 </head>
 
 <body class="page-home">
@@ -37,26 +37,26 @@
 			<div class="top-line">
 				<div class="logo"><a href="#"><img src="img/logo.svg" alt="Harrison Work"></a></div>
 				<span>г. Казань</span>
-				<a href="tel:+79050227856" id="text-number1">8 (905) 022-78-56</a>
+				<a href="tel:+79178518918" id="text-number1">8 (917) 851-89-18</a>
 				<a href="tel:+79050227856" id="text-number2">8 (905) 022-78-56</a>
 				<div class="header-socials">
 					<a href="#" id="ico-whatsup"><img src="img/whatsup.svg" alt=""></a>
 					<a href="#" id="ico-telegram"><img src="img/telegram.svg" alt=""></a>
 				</div>
 			</div>
-			<div class="header-composition">
+			<div class="header-composition wow bounceInDown" data-wow-offset="400" data-wow-duration="300" data-wow-delay="0s">
 				<h1>ОБУВЬ РУЧНОЙ РАБОТЫ НА ЗАКАЗ</h1>
 				<span>за 2 недели с гарантией 10 лет</span>
 			</div>
-			<div class="logo2"><a href="#"><img src="img/logo2.svg" alt="Harrison Work"></a></div>
-			<div class="bot-arrow">	<img src="img/arrow-bot.svg" alt=""></div>
+			<div class="logo2 wow bounceInUp" data-wow-offset="0" data-wow-duration="400" data-wow-delay="0.1s"><a href="#"><img src="img/logo2.svg" alt="Harrison Work"></a></div>
+			<div class="bot-arrow wow bounceInUp" data-wow-offset="0" data-wow-duration="400" data-wow-delay="0.2s">	<img src="img/arrow-bot.svg" alt=""></div>
 		</header>
 		<main class="content">
 			<section class="our-works" style="background-image: url(img/sect1-bg.svg);">
-				<h2>Примеры наших работ</h2>
+				<h2 class="wow bounceInLeft" data-wow-offset="300" data-wow-delay="0.2s">Примеры наших работ</h2>
 				<div class="border-composition">
-					<hr id="hr1">
-					<hr id="hr2">
+					<hr id="hr1" class="wow bounceInLeft" data-wow-offset="300" data-wow-delay="0.3s">
+					<hr id="hr2" class="wow bounceInLeft" data-wow-offset="300" data-wow-delay="0.5s">
 					<div class="slider-works">	
 						<div class="owl-carousel">
 							<div class="item">
@@ -88,7 +88,7 @@
 						<p><b>Обувь</b> - это ваш характер, язык вашего тела и самая важная деталь 
 							вашего образа. Каждая пара обуви, созданная в нашем ателье, 
 						существует только в единственном варианте.</p>
-						<div class="button">
+						<div class="button wow pulse" data-wow-offset="10" data-wow-duration="400" data-wow-delay="1s" data-wow-iteration="2">
 							<a href="#">Получить католог</a>
 						</div>
 					</div>
@@ -102,32 +102,49 @@
 					<hr id="hr3">
 					<hr id="hr4">
 				</div>
-				<div class="top-content-mob">
-					<p><u>15 лет</u> мы шьем классические мужские ботинки.</p> <p>Мы знаем, как создать 
-					обувь, учитывая ваш вкус, отвечающая вашему образу и стилю жизни.</p>		
-				</div>
 				<div class="bot-content">
 					<h2 class="h2">Мы предлагаем:</h2>
-					<h3 class="h3">I. Максимальное удобство</h3>
-					<p>Стопа человека является не только фундаментом тела. Даже малейшее 
-						изменение формы стопы приводит к повышенной нагрузке на суставы и 
-						позвоночник, к мышечному дисбалансу и болевым ощущениям. Именно 
-						поэтому мы изготавливаем ортопедическую подошву индивидуально 
-					под Вашу стопу. </p>
-					<h3 class="h3">II. Уникальную обувь</h3>
-					<p>Наличие огромного количества текстур и цветов кожи дает возможность 
-						пошить действительно уникальную обувь. Такой дизайнерской обуви не 
-					будет больше ни у кого не только в Казани, но и во всем мире.</p>
-					<h3 class="h3">III. Высокое качество</h3>
-					<p>Все материалы, используемые в ходе пошива обуви, закупаются напрямую от 
-						проверенных европейских производителей из Италии, Франции и Англии. 
-						А ручной пошив обуви позволяет сохранить только лучшие свойства 
-					материалов, что обеспечивает долговечность обуви.</p>
-					<h3 class="h3">IV. Воплощение ваших идей</h3>
-					<p>Каждый клиент имеет свое виденье идеальной обуви из натуральной кожи. 
-						Поэтому наши мастера всегда стараются максимально точно понять 
-					каждое желание клиента и воплотить его в реальность.</p>
-					<hr>
+					<div class="flex-container">
+						<div class="block-content">
+							<div class="icon">
+								<img src="img/slippers.svg" alt="" class="wow rubberBand" data-wow-offset="30" data-wow-duration="400" data-wow-delay="1s">
+							</div>
+							<h3 class="h3">I. Максимальное удобство</h3>
+							<p>Стопа человека является не только фундаментом тела. Даже малейшее 
+								изменение формы стопы приводит к повышенной нагрузке на суставы и 
+								позвоночник, к мышечному дисбалансу и болевым ощущениям. Именно 
+								поэтому мы изготавливаем ортопедическую подошву индивидуально 
+							под Вашу стопу. </p>
+						</div>
+						<div class="block-content">
+							<div class="icon">
+								<img src="img/star.svg" alt="" class="wow rubberBand" data-wow-offset="30" data-wow-duration="400" data-wow-delay="1.5s">
+							</div>
+							<h3 class="h3">II. Уникальную обувь</h3>
+							<p>Наличие огромного количества текстур и цветов кожи дает возможность 
+								пошить действительно уникальную обувь. Такой дизайнерской обуви не 
+							будет больше ни у кого не только в Казани, но и во всем мире.</p>
+						</div>
+						<div class="block-content">
+							<div class="icon">
+								<img src="img/diploma.svg" alt="" class="wow rubberBand" data-wow-offset="30" data-wow-duration="400" data-wow-delay="2s">
+							</div>
+							<h3 class="h3">III. Высокое качество</h3>
+							<p>Все материалы, используемые в ходе пошива обуви, закупаются напрямую от 
+								проверенных европейских производителей из Италии, Франции и Англии. 
+								А ручной пошив обуви позволяет сохранить только лучшие свойства 
+							материалов, что обеспечивает долговечность обуви.</p>
+						</div>
+						<div class="block-content">
+							<div class="icon">
+								<img src="img/idea.svg" alt="" class="wow rubberBand" data-wow-offset="30" data-wow-duration="400" data-wow-delay="2.5s">
+							</div>
+							<h3 class="h3">IV. Воплощение ваших идей</h3>
+							<p>Каждый клиент имеет свое виденье идеальной обуви из натуральной кожи. 
+								Поэтому наши мастера всегда стараются максимально точно понять 
+							каждое желание клиента и воплотить его в реальность.</p>
+						</div>
+					</div>		
 					<div class="bot-arrow-content">	<img src="img/arrow-bot-cont.svg" alt=""></div>
 				</div>
 			</section>
@@ -141,7 +158,7 @@
 						<div class="blocks-process">
 							<div class="block-process">
 								<div class="block-process-text">
-									<h3>Замер Ваших Стоп</h3>
+									<h3 class="wow bounceInLeft" data-wow-offset="0" data-wow-duration="300" data-wow-delay="0">Замер Ваших Стоп</h3>
 									<p>Замер Ваших стоп является важнейшим этапом 
 										для наших мастеров. Необходимо увидеть все 
 										ортопедические особенности и учесть их 
@@ -154,7 +171,7 @@
 							</div>
 							<div class="block-process">
 								<div class="block-process-text">
-									<h3>Прошивка Лекал</h3>
+									<h3 class="wow bounceInLeft" data-wow-offset="0" data-wow-duration="300" data-wow-delay="0">Прошивка Лекал</h3>
 									<p>Мастер первым делом разрабатывает лекала. 
 										Затем вручную прошивает их вощёной нитью, 
 										а также подошву Вашей будущей обуви, 
@@ -167,7 +184,7 @@
 							</div>
 							<div class="block-process">
 								<div class="block-process-text">
-									<h3>Контроль Качества</h3>
+									<h3 class="wow bounceInLeft" data-wow-offset="0" data-wow-duration="300" data-wow-delay="0">Контроль Качества</h3>
 									<p>Кожа обрабатывается французским воском, а 
 										затем полируется на станке. После этого вся 
 										обувь проходит обязательный и тщательный 
@@ -180,7 +197,7 @@
 							</div>
 							<div class="block-process">
 								<div class="block-process-text">
-									<h3>Сушка</h3>
+									<h3 class="wow bounceInLeft" data-wow-offset="0" data-wow-duration="300" data-wow-delay="0">Сушка</h3>
 									<p>Готовая обувь сушится в специальной камере 
 									не менее трёх дней.</p>
 								</div>
@@ -204,19 +221,19 @@
 							<img src="img/Sayt_Vektor_polnaya_versia.svg" alt="Harrison Work">
 						</div>
 						<div class="logo">
-							<img src="logo4.svg" alt="">
+							<img src="img/logo4.svg" alt="">
 						</div>
 						<p class="about-consult-text">индивидуально изготавливает обувь для первых 
-лиц политики, известных  персон бизнеса и 
-искусства России и СНГ , а готовые пары 
-отправляются доставкой 
-по всему миру.</p>
+							лиц политики, известных  персон бизнеса и 
+							искусства России и СНГ , а готовые пары 
+							отправляются доставкой 
+						по всему миру.</p>
 						<div class="video">
 
 						</div>
 						<p><b>Закажите</b> бесплатную консультацию, наш менеджер 
 						позвонит Вам в течении 5 минут. </p>
-						<div class="button">
+						<div class="button wow pulse" data-wow-offset="10" data-wow-duration="400" data-wow-delay="1s" data-wow-iteration="2">
 							<a href="#">Проконсультироваться</a>
 						</div>
 					</div>

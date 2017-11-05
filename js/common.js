@@ -33,4 +33,8 @@ $(function() {
 	})
 	$('.header').parallax({imageSrc: 'img/header-bg.png'});
 	$('.about-shoes').parallax({imageSrc: 'img/second-bg.jpg'});
+    new WOW().init();
+    $('.button').click(function() {     
+        $('.button').addClass('animated shake');      
+    });
 });
