@@ -1,40 +1,21 @@
-$(function() {
-
-	$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    width:90,
-    responsiveClass:true,
-    dots: false,
-    navText: ["<img src=\"img/arrow-left.svg\">","<img src=\"img/arrow-right.svg\">"],
-    responsive:{
-        320:{
-            items:1,
-            nav:true
-        },
-        480:{
-            items:2,
-            nav:true
-        },
-        800:{
-            items:3,
-            nav:true
-        },
-        1100:{
-            items:3,
-            nav:true
-        },
-        1200:{
-            items:4,
-            nav:true,
-            loop:true
-        }
-    }
-	})
-	$('.header').parallax({imageSrc: 'img/header-bg.png'});
-	$('.about-shoes').parallax({imageSrc: 'img/second-bg.jpg'});
-    new WOW().init();
-    $('.button').click(function() {     
-        $('.button').addClass('animated shake');      
-    });
+$(window).scroll(function(){
+      if ($(this).scrollTop() > 200) {
+          $('.fixed-menu').addClass('fix');
+      } else {
+          $('.fixed-menu').removeClass('fix');
+      }
+      if ( $(".fixed-menu").hasClass("fix") ) {
+      	$(".menu-icon-wrapper svg path").css(
+        {'stroke': '#48587F'}
+      );
+			} else {
+				$(".menu-icon-wrapper svg path").css(
+        {'stroke': '#fff'}
+      );
+			};
+			if ( $(".perspective").hasClass("modalview") ) {
+				$(".menu-icon-wrapper svg path").css(
+        {'stroke': '#48587F'}
+      );
+			};
 });
