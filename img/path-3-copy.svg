@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="255px" viewBox="0 0 112 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>C26D494A-636B-4EDC-B1F4-B00EB32285AA</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D6BB74" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#D6BB74" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="HarrisonWork" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-591.000000, -3280.000000)" opacity="0.5">
+        <path d="M700.490271,3281 L592,3281 L592,3534 C677.127142,3534 713.290565,3534 700.490271,3534" id="Path-3-Copy" stroke="url(#linearGradient-1)"></path>
+    </g>
+</svg>
